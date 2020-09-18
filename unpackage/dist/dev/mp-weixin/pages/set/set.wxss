@@ -1,0 +1,15 @@
+.set.data-v-21926b68 {
+  padding: 30rpx 35rpx;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.set .user.data-v-21926b68 {
+  border-bottom: 1px solid #FFF;
+}
+.set switch.data-v-21926b68,
+.set .uni-icons.data-v-21926b68,
+.set uni-icons.data-v-21926b68 {
+  float: right;
+}
+

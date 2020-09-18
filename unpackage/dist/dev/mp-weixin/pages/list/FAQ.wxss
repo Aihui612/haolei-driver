@@ -1,0 +1,76 @@
+.FAQ.data-v-7ad2fe04 {
+  padding-bottom: 100rpx;
+}
+.FAQ .top_item.data-v-7ad2fe04 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: -webkit-linear-gradient(315deg, #7692bb 0%, #425985 100%);
+  background: linear-gradient(135deg, #7692bb 0%, #425985 100%);
+}
+.FAQ .top_item .tip.data-v-7ad2fe04 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.FAQ .top_item .active.data-v-7ad2fe04 {
+  position: relative;
+  color: #ffe471;
+}
+.FAQ .top_item .active.data-v-7ad2fe04:before {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  width: 80rpx;
+  height: 5rpx;
+  background: #ffe471;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.FAQ .nr.data-v-7ad2fe04 {
+  color: #fff;
+  padding: 30rpx 50rpx;
+  font-size: 26rpx;
+}
+.FAQ .nr .title.data-v-7ad2fe04 {
+  font-size: 50rpx;
+  text-align: center;
+}
+.FAQ .nr .QA.data-v-7ad2fe04 {
+  margin-top: 30rpx;
+  line-height: 60rpx;
+}
+.FAQ .nr .QA .Q.data-v-7ad2fe04,
+.FAQ .nr .QA .A.data-v-7ad2fe04 {
+  position: relative;
+  padding-left: 80rpx;
+}
+.FAQ .nr .QA .Q text.data-v-7ad2fe04,
+.FAQ .nr .QA .A text.data-v-7ad2fe04 {
+  position: absolute;
+  top: 10rpx;
+  left: 0rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: inline-block;
+  background: #f7ac05;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-weight: 500;
+}
+.FAQ .nr .QA .Q.data-v-7ad2fe04 {
+  font-weight: 500;
+  font-size: 35rpx;
+}
+.FAQ .nr .QA .A text.data-v-7ad2fe04 {
+  background: #f1c6a2;
+  color: #ea7a1c;
+}
+

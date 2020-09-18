@@ -105,7 +105,7 @@ export default {
 										    url: './my'
 										});
 									}else{
-										this.islogin=true;		
+										_this.islogin=true;		
 									}
 								},
 								fail: (err) => {

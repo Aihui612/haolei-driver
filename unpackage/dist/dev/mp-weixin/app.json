@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/login",
+    "pages/index/index",
+    "pages/index/my",
+    "pages/index/register",
+    "pages/index/password",
+    "pages/set/set",
+    "pages/set/user",
+    "pages/set/wallet",
+    "pages/set/withdraw",
+    "pages/list/msgs",
+    "pages/list/msg",
+    "pages/set/number",
+    "pages/list/order",
+    "pages/list/pick",
+    "pages/list/FAQ",
+    "pages/set/password",
+    "pages/index/agreement",
+    "pages/list/aboutus"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7692bb",
+    "selectedColor": "#7692bb",
+    "borderStyle": "black",
+    "backgroundColor": "#7692bb",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/index/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "展示取车地点与代驾司机的距离"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,76 @@
+.login.data-v-c3d8bbfa {
+  position: relative;
+  height: 100vh;
+}
+.login .bg.data-v-c3d8bbfa {
+  width: 750rpx;
+  height: 499rpx;
+}
+.login .logo.data-v-c3d8bbfa {
+  position: absolute;
+  top: 268rpx;
+  left: 50%;
+  width: 428rpx;
+  height: 124rpx;
+  margin-left: -214rpx;
+}
+.login .nr.data-v-c3d8bbfa {
+  position: absolute;
+  top: 432rpx;
+  left: 25rpx;
+  right: 25rpx;
+  bottom: 25rpx;
+  z-index: 9;
+  background: -webkit-linear-gradient(315deg, #7692bb 0%, #425985 100%);
+  background: linear-gradient(135deg, #7692bb 0%, #425985 100%);
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  padding: 100rpx 30rpx 0;
+  margin: -68rpx auto 0;
+}
+.login .nr .list.data-v-c3d8bbfa {
+  position: relative;
+  margin-bottom: 50rpx;
+  -webkit-border-radius: 4rpx;
+          border-radius: 4rpx;
+  overflow: hidden;
+}
+.login .nr .list image.data-v-c3d8bbfa {
+  position: absolute;
+  top: 10rpx;
+  left: 20rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.login .nr .list input.data-v-c3d8bbfa {
+  padding-left: 100rpx;
+  height: 80rpx;
+  background: #fff;
+  font-size: 24rpx;
+}
+.login .nr .sub.data-v-c3d8bbfa {
+  height: 97rpx;
+  line-height: 97rpx;
+  -webkit-border-radius: 97rpx;
+          border-radius: 97rpx;
+  color: #fff;
+  background: #2d3c63;
+  text-align: center;
+  margin-top: 120rpx;
+}
+.login .nr .bottom.data-v-c3d8bbfa {
+  position: absolute;
+  bottom: 40rpx;
+  left: 30rpx;
+  right: 30rpx;
+  font-size: 24rpx;
+  height: 30rpx;
+  color: #ffffff;
+}
+.login .nr .bottom .left.data-v-c3d8bbfa {
+  float: left;
+}
+.login .nr .bottom .right.data-v-c3d8bbfa {
+  float: right;
+}
+

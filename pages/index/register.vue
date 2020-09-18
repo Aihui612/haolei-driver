@@ -12,7 +12,7 @@
 			<view class="input">
 				<text>性别</text>
 				<picker mode="selector" @change="bindPickerChange" :value="fromdata.gender - 1" :range="sexlist">
-					<view class="uni-input">{{ sexlist[fromdata.gender - 1] }}</view>
+					<view class="uni-input" style='margin-left: 500rpx;'>{{ sexlist[fromdata.gender - 1] }}</view>
 				</picker>
 				<uni-icons type="arrowright"></uni-icons>
 			</view>
@@ -94,6 +94,7 @@ export default {
 	},
 	methods: {
 		gocardimg() {
+			let that=this;
 			uni.chooseImage({
 				count: 1, //默认9
 				sizeType: ['compressed'], //可以指定是原图还是压缩图，默认二者都有
@@ -106,20 +107,59 @@ export default {
 							//成功的回调
 							let base64 = v.data; // 返回的是没有 'data:image/jpeg;base64,'头的数据, 有需要可自行追加上
 							uni.request({
-								url: 'https://ipcard.market.alicloudapi.com/ai_image_detect/ai_peron_id_card/peron_id_card/v1?AppCode=ee76a3d252df413c96951d9fa6eb26f8', //仅为示例，并非真实接口地址。
-								data: {
-									IMAGE: base64
-								},
-								header: {
-									'custom-header': 'hello' //自定义请求头信息
-								},
-								dataType: 'json',
-								responseType: 'text',
-								method: 'POST',
-								success: res => {
-									console.log(res.data);
-									this.text = 'request success';
-								}
+							  url: `http://dm-51.data.aliyun.com/rest/160601/ocr/ocr_idcard.json`,
+							  data: {
+							    image: base64,
+							    // #正反面类型face/back
+							    configure: { side: 'face' },
+							  },
+							  header: {
+							    Authorization: 'APPCODE ee76a3d252df413c96951d9fa6eb26f8',
+							    'Content-Type': 'application/octet-stream; charset=utf-8',
+							  },
+							  method: 'POST', // PUT DELETE GET
+							  // 微信环境405等http错误也会进此回调
+							  success: res => {
+							    uni.hideLoading();
+							    // gender: this.gender,
+							    //   // 司机姓名
+							    //   driverName: this.driverName,
+							    //   // 司机手机号
+							    //   driverMobile: this.driverMobile,
+							    //   // 身份证号
+							    //   idCard: this.idCard,
+							    //   // 代驾经验
+							    //   experience: 1,
+							    //   // 位置 经纬度
+							    //   locPoi: '',
+							    if (res.statusCode === 200) {
+							      console.log(12111111, res);
+							      // 姓名
+							      that.fromdata.driverName = res.data.name;
+							      // 民族 汉
+							      // res.data.nationality
+							      // 身份证号
+							      that.fromdata.idCard = res.data.num;
+								  
+								  that.fromdata.locPoi = res.data.address;
+							      // 性别  男1  女2
+								  if(res.data.sex=='男'){
+									  that.fromdata.gender=1;
+								  }else {
+									  that.fromdata.gender=2;
+								  }
+							      // that.fromdata.gender = that.genderTextList.indexOf(res.data.sex);
+							      // 地址 河南省**县**镇**村**组15号"
+							      // res.data.address
+								  
+								  
+							      // // 出生年月日  19900602
+							      // res.data.birth
+							    }
+							  },
+							  fail: err => {
+							    console.log(1111, err);
+							  },
 							});
 						}
 					});
@@ -127,7 +167,8 @@ export default {
 			});
 		},
 		bindPickerChange: function(e) {
-			this.fromdata.gender = e.target.value + 1;
+			console.log(e) // 0  1 
+			this.fromdata.gender =parseInt(e.target.value) + 1;
 		},
 		bindPickerChange2: function(e) {
 			this.fromdata.experience = e.target.value;

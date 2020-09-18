@@ -1,0 +1,1 @@
+<view class="msg data-v-2831dc09"><view class="title data-v-2831dc09">{{datalist.title}}</view><view class="nr data-v-2831dc09">{{datalist.message}}</view></view>

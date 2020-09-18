@@ -1,0 +1,130 @@
+.wallet.data-v-e6b66702 {
+  color: #fff;
+}
+.wallet .top.data-v-e6b66702 {
+  position: relative;
+}
+.wallet .top image.data-v-e6b66702 {
+  width: 100%;
+  height: 312rpx;
+}
+.wallet .top .name.data-v-e6b66702 {
+  position: absolute;
+  top: 62rpx;
+  left: 33rpx;
+  right: 33rpx;
+  font-size: 48rpx;
+  font-weight: 400;
+}
+.wallet .top .name image.data-v-e6b66702 {
+  position: absolute;
+  right: 0;
+  top: -18rpx;
+  width: 84rpx;
+  height: 84rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 6rpx solid #ffffff;
+}
+.wallet .price.data-v-e6b66702 {
+  position: relative;
+  z-index: 9;
+  width: 690rpx;
+  height: 323rpx;
+  background: rgba(255, 255, 255, 0.89);
+  -webkit-box-shadow: 0px 4rpx 68rpx 0px rgba(39, 52, 125, 0.25);
+          box-shadow: 0px 4rpx 68rpx 0px rgba(39, 52, 125, 0.25);
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+  padding-top: 48rpx;
+  margin: -148rpx auto 0;
+}
+.wallet .price .list.data-v-e6b66702 {
+  padding: 0 50rpx;
+  line-height: 88rpx;
+  color: #212c67;
+  font-size: 42rpx;
+}
+.wallet .price .list text.data-v-e6b66702 {
+  position: relative;
+  top: 6rpx;
+  left: 30rpx;
+  font-size: 28px;
+  font-weight: 500;
+}
+.wallet .price .withdraw.data-v-e6b66702 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 96rpx;
+  line-height: 96rpx;
+  background: -webkit-linear-gradient(315deg, #7692bb 0%, #425985 100%);
+  background: linear-gradient(135deg, #7692bb 0%, #425985 100%);
+  -webkit-border-radius: 0px 0px 16rpx 16rpx;
+          border-radius: 0px 0px 16rpx 16rpx;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.wallet .detail.data-v-e6b66702 {
+  width: 690rpx;
+  margin: 41rpx auto;
+  background: -webkit-linear-gradient(315deg, #7692bb 0%, #425985 100%);
+  background: linear-gradient(135deg, #7692bb 0%, #425985 100%);
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+  overflow: hidden;
+}
+.wallet .detail .detail_item.data-v-e6b66702 {
+  padding: 20rpx 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #425985;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+}
+.wallet .detail .detail_item .detail_list.data-v-e6b66702 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.wallet .detail .detail_item .detail_list.data-v-e6b66702:nth-child(1) {
+  border-right: 1px solid #fff;
+}
+.wallet .detail .detail_item .active.data-v-e6b66702 {
+  position: relative;
+  color: #ffe471;
+}
+.wallet .detail .detail_item .active.data-v-e6b66702:before {
+  content: ' ';
+  position: absolute;
+  bottom: -20rpx;
+  width: 128rpx;
+  height: 5rpx;
+  background: #ffe471;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.wallet .detail .from.data-v-e6b66702 {
+  line-height: 77rpx;
+  text-align: center;
+}
+.wallet .detail .from .th.data-v-e6b66702,
+.wallet .detail .from .tb.data-v-e6b66702 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.wallet .detail .from .th .td.data-v-e6b66702,
+.wallet .detail .from .tb .td.data-v-e6b66702 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 26rpx;
+}
+

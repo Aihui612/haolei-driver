@@ -1,5 +1,5 @@
 <template>
-	<view v-html='text'>
+	<view  class="bg" v-html='text'>
 		
 	</view>
 </template>
@@ -31,5 +31,8 @@
 </script>
 
 <style lang="less">
+	.bg{
+		background-color: white;
+	}
 
 </style>

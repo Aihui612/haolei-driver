@@ -1,0 +1,38 @@
+.msgs.data-v-3c95738c {
+  padding: 30rpx 40rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.msgs .list.data-v-3c95738c {
+  position: relative;
+  border-bottom: 1px solid #4c6288;
+  line-height: 124rpx;
+}
+.msgs .list image.data-v-3c95738c {
+  width: 64rpx;
+  height: 64rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  float: left;
+  margin-top: 30rpx;
+  margin-right: 30rpx;
+}
+.msgs .list .name.data-v-3c95738c {
+  width: 476rpx;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.msgs .list .dian.data-v-3c95738c {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -9rpx;
+  width: 18rpx;
+  height: 18rpx;
+  background: #ff4848;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+

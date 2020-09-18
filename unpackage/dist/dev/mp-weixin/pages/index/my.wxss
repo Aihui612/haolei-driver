@@ -1,0 +1,68 @@
+.my.data-v-810f65fc {
+  background: #2a3a52;
+}
+.my .top_bg image.data-v-810f65fc {
+  width: 100%;
+  height: 371rpx;
+}
+.my .card.data-v-810f65fc {
+  position: relative;
+  z-index: ;
+  margin: -321rpx auto 0;
+  width: 640rpx;
+  background: #ffffff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  padding: 40rpx 30rpx;
+}
+.my .card .msg.data-v-810f65fc {
+  height: 190rpx;
+}
+.my .card .msg image.data-v-810f65fc {
+  width: 160rpx;
+  height: 160rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.my .card .msg .text.data-v-810f65fc {
+  float: right;
+  text-align: right;
+}
+.my .card .msg .text .name.data-v-810f65fc {
+  margin-top: 18rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  line-height: 50rpx;
+  color: #4e6792;
+}
+.my .card .msg .text .tell.data-v-810f65fc {
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #94a1b8;
+  line-height: 45rpx;
+}
+.my .bottomlist.data-v-810f65fc {
+  padding: 30rpx 20px;
+}
+.my .bottomlist .list.data-v-810f65fc {
+  color: #fff;
+  line-height: 99rpx;
+  border-bottom: 1px solid #4c6288;
+  font-size: 28rpx;
+}
+.my .bottomlist .list image.data-v-810f65fc {
+  position: relative;
+  top: 8rpx;
+  width: 39rpx;
+  height: 39rpx;
+  margin-right: 20rpx;
+}
+.my .bottomlist .list .uni-icons.data-v-810f65fc,
+.my .bottomlist .list uni-icons.data-v-810f65fc {
+  float: right;
+}
+.my .tab_my .title.data-v-810f65fc {
+  opacity: 1;
+}
+
